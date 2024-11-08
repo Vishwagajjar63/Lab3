@@ -1,0 +1,37 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px; 
+    height: 100px; 
+    background-color: black; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.button button {
+    color: green; 
+    border: none; 
+    background: transparent; 
+    font-size: 16px;
+    cursor: pointer; 
+}
+
+.button:hover {
+    background-color: green; 
+    transform: scale(1.1); 
+}
+
+.button:hover button {
+    color: black; 
+}
